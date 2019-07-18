@@ -14,11 +14,12 @@ import java.util.Set;
 
 public class Timejdk8 {
 
-
+//https://blog.csdn.net/u011236357/article/details/78296293
     public static void main(String[] args) throws InterruptedException {
         Clock clock = Clock.systemDefaultZone();
 /*        System.out.println(clock.getZone());
         System.out.println(clock.instant());
+        
         System.out.println(System.currentTimeMillis()==clock.millis());
         Set set = ZoneId.getAvailableZoneIds();
         set.forEach(e-> System.out.print(e));
